@@ -1,0 +1,11 @@
+[build]
+# Root directory of the output is build/.
+publish = "build/"
+
+[[redirects]]
+# Redirect to the base `blog.dwac.dev`. Do not propagate paths to disincentivize
+# users from permalinking to `dwac.dev`, when they should be linking to
+# `blog.dwac.dev`. This provides more flexibility to change this redirect in the
+# future.
+from = "*"
+to = "https://blog.dwac.dev/"

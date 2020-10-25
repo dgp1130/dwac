@@ -3,6 +3,11 @@
   "version": "0.0.0",
   "private": true,
   "description": "Personal website for https://github.com/dgp1130/",
+  "scripts": {
+    "build": "mkdir -p build/",
+    "deploy-test": "npm run -s build && netlify deploy --alias",
+    "deploy-prod": "npm run -s build && netlify deploy --prod"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dgp1130/dwac.git"
@@ -12,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/dgp1130/dwac/issues"
   },
-  "homepage": "https://github.com/dgp1130/dwac#readme"
+  "homepage": "https://github.com/dgp1130/dwac#readme",
+  "devDependencies": {
+    "netlify-cli": "^2.65.7"
+  }
 }
