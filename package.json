@@ -1,0 +1,16 @@
+{
+  "name": "dwac",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Personal website for https://github.com/dgp1130/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dgp1130/dwac.git"
+  },
+  "author": "Doug Parker",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dgp1130/dwac/issues"
+  },
+  "homepage": "https://github.com/dgp1130/dwac#readme"
+}
